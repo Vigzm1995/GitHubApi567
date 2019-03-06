@@ -1,7 +1,8 @@
 language: python
 python:
- - "3.6"
+ - "3.7"
 
 # command to run tests
 script:
- - python -m unittest HW04VigneshMohan_test
+ - pytest
+ - python -m unittest HW04VigneshMohan_test.py
