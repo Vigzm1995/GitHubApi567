@@ -15,13 +15,13 @@ class Test(unittest.TestCase):
     def test_gitRepo(self):
        
         expected = ['User Name in Github: Vigzm1995',
-'Repository: CS-546 Number of commits inside the repository: 30',
-'Repository: GitHubApi567 Number of commits inside the repository: 30',
-'Repository: shift-sleeping-barber-problem Number of commits inside the repository: 2',
-'Repository: SSW-567 Number of commits inside the repository: 19',
-'Repository: SSW-810 Number of commits inside the repository: 6',
-'Repository: SSW567-HW05 Number of commits inside the repository: 2',
-'Repository: SSW690-project Number of commits inside the repository: 8']
+                    'Repository: CS-546 Number of commits inside the repository: 30',
+                    'Repository: GitHubApi567 Number of commits inside the repository: 30',
+                    'Repository: shift-sleeping-barber-problem Number of commits inside the repository: 2',
+                    'Repository: SSW-567 Number of commits inside the repository: 19',
+                    'Repository: SSW-810 Number of commits inside the repository: 6',
+                    'Repository: SSW567-HW05 Number of commits inside the repository: 2',
+                    'Repository: SSW690-project Number of commits inside the repository: 8']
 
         self.assertEqual(get_user_information(), expected)
 
