@@ -9,4 +9,4 @@ cache: pip
 
 # command to run tests
 script:
- - python -m HW04VigneshMohan_test.py
+ - python -m unittest HW04VigneshMohan_test
