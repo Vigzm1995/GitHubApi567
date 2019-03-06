@@ -7,4 +7,4 @@ cache: pip
 # command to run tests
 script:
  - pytest
- - python run unittest HW04VigneshMohan_test.py
+ - python -m HW04VigneshMohan_test.py
